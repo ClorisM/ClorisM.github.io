@@ -9,8 +9,8 @@
 </head>
 <body>
 <div class="wrap">
-    <ol id="ol">
-    </ol>
+    <ul id="ul">
+    </ul>
 </div>
 <script type="text/javascript">
     var str='',
@@ -36,12 +36,12 @@
         }
         str+=sub;
     }
-    var ol=document.getElementById('ol');
-    var h1=ol.getElementsByTagName('h1');
-    var dl=ol.getElementsByTagName('dl');
+    var ul=document.getElementById('ul');
+    var h1=ul.getElementsByTagName('h1');
+    var dl=ul.getElementsByTagName('dl');
     var tmp=-1;
     var open=false;
-    ol.innerHTML=str;
+    ul.innerHTML=str;
     for(var i=0;i<h1.length;i++){
         h1[i].index=i;
         h1[i].onclick=function () {
