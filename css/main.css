@@ -1,0 +1,13 @@
+.wrap{
+    width:500px;
+}
+#ol li{
+    line-height: 50px;
+}
+#ol li h1{
+    font-size: 22px;
+    font-style:normal;
+}
+a{
+    text-decoration: none;
+}
