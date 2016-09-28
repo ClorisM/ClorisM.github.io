@@ -6,6 +6,7 @@
     <link href="css/calendar.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/calendar.js"></script>
 <script>
@@ -13,6 +14,7 @@
     var callback=function(){
         alert('你选择了');
     }
+    var myCalendar=new Calendar($(document.body),false,3,100,date,callback);
 
 </script>
 </body>
