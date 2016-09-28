@@ -1,7 +1,6 @@
 
-function Calendar(mainContainer,isSelect,isperiod,min,max,date,callback){
+function Calendar(mainContainer,isperiod,min,max,date,callback){
     this.mainContainer=mainContainer;
-    this.isSelect=isSelect;
     this.isperiod=isperiod;
     this.min=min;
     this.max=max;
@@ -35,25 +34,6 @@ Calendar.prototype={
         var nextyear=$('<span>').addClass('nextyear').appendTo(header).click(function(){self.nextyearEvent()});
         var nextmonth=$('<span>').addClass('nextmonth').appendTo(header).click(function(){self.nextmonthEvent()});
         var datetitle=$('<span>').addClass('datetitle').appendTo(header);
-        if(this.isSelect){
-            datetitle.html('<select class="selyear"></select>'+'年'+'<select class="selmonth"></select>'+'月');
-            for(i=1997;i<2022;i++){
-                if(this.date.getFullYear()==i){
-                    $('<option selected>').html(i).appendTo($('select')[0]);
-                }else{
-                    $('<option>').html(i).appendTo($('select')[0]);
-                }
-            }
-            for(i=1;i<12;i++){
-                if((this.date.getMonth()+1)==i){
-                    $('<option selected>').html(i).appendTo($('select')[1]);
-                }else{
-                    $('<option>').html(i).appendTo($('select')[1]);
-
-                }
-            }
-
-        }
         //内容部分
         var content=$('<div>').addClass('content').click(function(e){self.choseEvent(e)}).appendTo(calendarFrame);
         // for(var i=0;i<42;i++){
@@ -86,7 +66,7 @@ Calendar.prototype={
 
         //找到第一个日期
         var odate=new Date(date);
-        odate.setDate(odate-date+1);
+        odate.setDate(1);
         odate.setDate(odate.getDate()-odate.getDay())
 
         for(var i=7;i<49;i++){
@@ -102,7 +82,7 @@ Calendar.prototype={
                 //$(spans[i]).css('color','#C91B02');
                 item.css('color','#C91B02')
             }
-            if(odate.getTime()==this.date.getTime()){
+            if(odate.getFullYear()==this.date.getFullYear()&&odate.getMonth()==this.date.getMonth()&&odate.getDate()==this.date.getDate()){
                 this.index1=i;
             }
             //选择日期段
@@ -124,9 +104,7 @@ Calendar.prototype={
                 //$(spans[i]).css('background-color','#FF0000');
                 item.css('background-color','#FF0000')
             }
-            if(!this.isSelect){
-                $('.datetitle').html(date.getFullYear()+'年'+(parseInt(date.getMonth())+1)+'月');
-            }
+            $('.datetitle').html(date.getFullYear()+'年'+(parseInt(date.getMonth())+1)+'月');
             item.appendTo(content)
             odate.setDate(odate.getDate()+1);
         }
@@ -150,11 +128,13 @@ Calendar.prototype={
     //点选事件
     choseEvent:function(event){
         event=event||window.event;
-        var chosedEle=$(event.target)
+        var target=event.target||event.srcElement;
+        var chosedEle=$(target)
         var spans=$('.content span');
         var index2=spans.index(chosedEle);
         this.chosedDate=new Date(this.date);
         this.chosedDate.setDate(this.date.getDate()+(index2-this.index1));
+        console.log(index2-this.index1);
         if(this.isperiod){
             if(this.chosedDates.length>=1){
                 var predate=this.chosedDates[this.chosedDates.length-1];
@@ -171,7 +151,8 @@ Calendar.prototype={
             }
 
         }else{
-            this.renderCalendar(this.chosedDate);
+            this.date=this.chosedDate
+            this.renderCalendar(this.date);
         }
 
     },
