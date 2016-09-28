@@ -10,7 +10,7 @@ function Calendar(mainContainer,isperiod,min,max,date,callback){
 
     this.chosedDate=new Date();
     this.chosedDates=[];
-
+    this.chosedDates.push(this.chosedDate);
 
     this.createCalendar();
     this.renderCalendar(this.date);
@@ -36,9 +36,7 @@ Calendar.prototype={
         var datetitle=$('<span>').addClass('datetitle').appendTo(header);
         //内容部分
         var content=$('<div>').addClass('content').click(function(e){self.choseEvent(e)}).appendTo(calendarFrame);
-        // for(var i=0;i<42;i++){
-        // 	$('<span>').appendTo(content);
-        // }
+
         //底部按钮区
         var footer=$('<div>').addClass('footer').appendTo(calendarFrame);
 
@@ -53,14 +51,11 @@ Calendar.prototype={
     },
     //渲染日期
     renderCalendar:function(date){
-
         var weeks=['日','一','二','三','四','五','六']
-        //var spans=$('.content>span');
         var content=$('.content');
         content.html('');
         //首先把前面的星期渲染出来
         for(var i=0;i<7;i++){
-            //$(spans[i]).html(weeks[i]);
             $('<span>').html(weeks[i]).appendTo(content)
         }
 
@@ -96,7 +91,7 @@ Calendar.prototype={
                 }
             }
             //点击选择单个日期
-            if(odate.getTime()==this.chosedDate.getTime()){
+            if(odate.getFullYear()==this.chosedDate.getFullYear()&&odate.getMonth()==this.chosedDate.getMonth()&&odate.getDate()==this.chosedDate.getDate()){
                 item.css('background-color','#FF0000')
             }
             $('.datetitle').html(date.getFullYear()+'年'+(parseInt(date.getMonth())+1)+'月');
