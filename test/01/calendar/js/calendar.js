@@ -70,16 +70,13 @@ Calendar.prototype={
         odate.setDate(odate.getDate()-odate.getDay())
 
         for(var i=7;i<49;i++){
-            //$(spans[i]).html(odate.getDate());
             var item=$('<span>').html(odate.getDate())
             //不是同月样式不一样
             if(odate.getMonth()!=date.getMonth()){
-                //$(spans[i]).css('color','#CCC');
                 item.css('color','#CCC')
             }
             //周六周日样式不一样
             if(odate.getDay()==0||odate.getDay()==6){
-                //$(spans[i]).css('color','#C91B02');
                 item.css('color','#C91B02')
             }
             if(odate.getFullYear()==this.date.getFullYear()&&odate.getMonth()==this.date.getMonth()&&odate.getDate()==this.date.getDate()){
@@ -89,7 +86,6 @@ Calendar.prototype={
             if(this.isperiod){
                 var date1=this.chosedDates[0];
                 var date2=this.chosedDates[1];
-
                 if(date1&&date2){
                     if(odate.getTime()==date1.getTime()||odate.getTime()==date2.getTime()){
                         item.css('background-color','#FF0000');
@@ -101,7 +97,6 @@ Calendar.prototype={
             }
             //点击选择单个日期
             if(odate.getTime()==this.chosedDate.getTime()){
-                //$(spans[i]).css('background-color','#FF0000');
                 item.css('background-color','#FF0000')
             }
             $('.datetitle').html(date.getFullYear()+'年'+(parseInt(date.getMonth())+1)+'月');
@@ -134,7 +129,6 @@ Calendar.prototype={
         var index2=spans.index(chosedEle);
         this.chosedDate=new Date(this.date);
         this.chosedDate.setDate(this.date.getDate()+(index2-this.index1));
-        console.log(index2-this.index1);
         if(this.isperiod){
             if(this.chosedDates.length>=1){
                 var predate=this.chosedDates[this.chosedDates.length-1];
@@ -147,7 +141,8 @@ Calendar.prototype={
                 alert('不在时间跨度范围内，请重新选择')
             }else{
                 this.chosedDates.push(this.chosedDate);
-                this.renderCalendar(this.chosedDate);
+                this.date=this.chosedDate;
+                this.renderCalendar(this.date);
             }
 
         }else{
