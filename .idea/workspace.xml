@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89fb719-30af-4375-a50a-ed6dc7343f3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form/form.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="375">
+              <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -59,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/03/form/form.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="566">
@@ -102,10 +99,10 @@
         <option value="$USER_HOME$/Desktop/test/test/01/calendar.html" />
         <option value="$PROJECT_DIR$/test/01/calendar/calendar.html" />
         <option value="$PROJECT_DIR$/test/01/calendar/js/calendar.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test/03/form/form.html" />
         <option value="$PROJECT_DIR$/test/03/form/form.css" />
         <option value="$PROJECT_DIR$/test/03/form/form.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -174,6 +171,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClorisM.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClorisM.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,18 +285,18 @@
       <workItem from="1475022258221" duration="1175000" />
       <workItem from="1475044391120" duration="7408000" />
       <workItem from="1475592466881" duration="207000" />
-      <workItem from="1475717673416" duration="208000" />
+      <workItem from="1475717673416" duration="1062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35368000" />
+    <option name="totallyTimeSpent" value="36222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="206" y="0" width="1018" height="744" extended-state="1" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19161677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19161677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,14 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/03/form/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
@@ -532,6 +543,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
           <folding />
         </state>
       </provider>
