@@ -1,0 +1,32 @@
+div{
+    position: relative;
+    margin:0 auto;
+    height: 60px;
+}
+div span:first-child{
+    position: absolute;
+    right:60%;
+    font-weight: bold;
+}
+div input{
+    position: absolute;
+    left: 42%;
+    border-radius: 5px;
+}
+div span:last-child{
+    visibility: hidden;
+    padding-top: 7px;
+    position: absolute;
+    left:42%;
+    color: darkgrey;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: blue;
+}
