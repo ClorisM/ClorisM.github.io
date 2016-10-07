@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei UI',sans-serif;
+}
+form{
+    margin: 200px auto;
+}
+fieldset{
+    text-align: center;
+    border: none;
+    height: 100px;
+}
+select{
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+}
+input[type="radio"]{
+    border: 1px solid #999;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#select label{
+    margin-right: 30px;
+}
+fieldset#college,fieldset#company{
+    display: none;
+}

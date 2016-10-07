@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89fb719-30af-4375-a50a-ed6dc7343f3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form1/form1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form1/form1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form1/form1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/03/form1/form1.css" afterPath="$PROJECT_DIR$/test/03/form1/form1.css" />
     </list>
     <ignored path="ClorisM.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,17 +46,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form1.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="form1.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/03/form1/form1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="538">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form1.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/03/form1/form1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="566">
@@ -138,6 +135,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test/03/form1/form1.html" />
         <option value="$PROJECT_DIR$/test/03/form1/form1.js" />
+        <option value="$PROJECT_DIR$/test/03/form1/form1.css" />
       </list>
     </option>
   </component>
@@ -319,18 +317,18 @@
       <workItem from="1475717673416" duration="1187000" />
       <workItem from="1475721116896" duration="1357000" />
       <workItem from="1475798795849" duration="1097000" />
-      <workItem from="1475834182480" duration="206000" />
+      <workItem from="1475834182480" duration="814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39007000" />
+    <option name="totallyTimeSpent" value="39615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="0" width="1018" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="41" y="0" width="1018" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19161677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19161677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -654,18 +652,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/03/form1/form1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/03/form1/form1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/03/form1/form1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>
