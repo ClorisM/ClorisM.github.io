@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>表单联动</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+<form action="javascript:;">
+    <fieldset id="select">
+        <label for="undergraduate">
+            <input type="radio" id="undergraduate" name="people">在校生
+        </label>
+        <label for="graduate">
+            <input type="radio" id="graduate" name="people">非在校生
+        </label>
+    </fieldset>
+    <fieldset id="college">
+        <label for="city">城市</label>
+        <select name="city" id="city"></select>
+        <label for="school">学校</label>
+        <select name="school" id="school"></select>
+    </fieldset>
+    <fieldset id="company">
+        <label for="work">就业单位</label>
+        <input type="text" id="work" placeholder="请输入你的单位">
+    </fieldset>
+</form>
+<script src="form1.js"></script>
+</body>
+</html>
