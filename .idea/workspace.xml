@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89fb719-30af-4375-a50a-ed6dc7343f3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/02/magnifier/magnifier.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form2/form2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form2/form2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/03/form2/form2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -27,69 +29,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+            <state relative-caret-position="266">
+              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/03/form1/form1.html">
+      <file leaf-file-name="form2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/03/form2/form2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/03/form2/form2.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="538">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/03/form1/form1.css">
+      <file leaf-file-name="form2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/03/form2/form2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://H:/源文件/源代码/代码/图像处理/canvas-image/04-image-magnifier/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magnifier.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/02/magnifier/magnifier.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/03/form1/form1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="19">
+              <caret line="444" column="18" selection-start-line="444" selection-start-column="18" selection-end-line="444" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -98,7 +72,7 @@
       <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/03/form/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
+            <state relative-caret-position="722">
               <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
               <folding />
             </state>
@@ -167,6 +141,9 @@
         <option value="H:/源文件/源代码/代码/图像处理/canvas-image/04-image-magnifier/index.html" />
         <option value="$PROJECT_DIR$/test/02/magnifier/magnifier.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/test/03/form2/form2.html" />
+        <option value="$PROJECT_DIR$/test/03/form2/form2.css" />
+        <option value="$PROJECT_DIR$/test/03/form2/form2.js" />
       </list>
     </option>
   </component>
@@ -207,6 +184,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,6 +231,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClorisM.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClorisM.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClorisM.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClorisM.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="02" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -281,7 +299,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,15 +387,16 @@
       <workItem from="1475717673416" duration="1187000" />
       <workItem from="1475721116896" duration="1357000" />
       <workItem from="1475798795849" duration="1097000" />
-      <workItem from="1475834182480" duration="2168000" />
+      <workItem from="1475834182480" duration="3044000" />
+      <workItem from="1476182388464" duration="286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40969000" />
+    <option name="totallyTimeSpent" value="42131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="0" width="1018" height="744" extended-state="0" />
+    <frame x="41" y="0" width="1018" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19161677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -435,30 +453,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/03/form/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/03/form/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/03/form/form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -665,19 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/03/form/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/03/form1/form1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,11 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,18 +692,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/03/form/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/03/form2/form2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/03/form2/form2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="444" column="18" selection-start-line="444" selection-start-column="18" selection-end-line="444" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/03/form2/form2.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
